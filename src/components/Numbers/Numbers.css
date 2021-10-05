@@ -1,0 +1,26 @@
+#number-container{
+    background-color: aqua;
+    width: 40%;
+    margin:10px 30px;
+    border: 2px solid black;
+    height:40%;
+
+}
+.num-row{
+    font-size: 30px;
+    list-style: none;
+   width: 100%;
+    
+    
+}
+.num{
+    display: inline;
+    margin:0 10px;
+    padding:0 2px 0 2px;
+    cursor:pointer
+}
+.num:hover{
+    background-color: cornflowerblue;
+    border:1px solid blueviolet;
+    border-radius: 10%;
+}

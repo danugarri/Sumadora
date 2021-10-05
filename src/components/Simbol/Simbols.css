@@ -1,0 +1,22 @@
+#simbol{
+  
+    cursor:pointer;
+    background-color: aqua;
+    font-size: 30px;
+    border: 0;
+   
+}
+#simbol:hover{
+    background-color: cornflowerblue;
+    border:1px solid blueviolet;
+    border-radius: 10%;
+}
+#generic-container{
+    float: right;
+  position: absolute;
+  top: 450px;
+  margin:0 250px;
+  background-color: aqua;
+  border:2px solid black;
+  padding:5px
+}
