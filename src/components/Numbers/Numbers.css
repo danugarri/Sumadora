@@ -1,9 +1,9 @@
 #number-container{
     background-color: aqua;
-    width: 200px;
+    width: 40%;
     margin:10px 30px;
     border: 2px solid black;
-    height:0%;
+    height:40%;
 
 }
 .num-row{
