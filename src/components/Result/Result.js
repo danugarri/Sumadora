@@ -28,7 +28,7 @@ const Result= ({state,onHandleChange,plusState,numberToAdd}) =>{
              {/*aquí se mostrará el resultado*/}
              <section>
             <p>Número por teclado</p>
-            <input type='number' id='result-number' placeholder='0' autoFocus onChange={handleChangeInput} value={state}/>
+            <input type='number' id='result-number' placeholder='0' autoFocus onChange={handleChangeInput} value={state===0?'':state}/>
             {console.log('estado en el componente Result '+state)}
             {/*with this i can render the result of the summation<h1>{plusState}</h1>*/}
 

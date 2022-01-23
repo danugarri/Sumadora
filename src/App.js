@@ -11,13 +11,13 @@ function App() {
  */
  //state from the Numbers component
   const [numberToAdd,setNumberToAdd]= useState(
-    [''
+    [null
 
     ])
     //////lo cambio por un array
   //state from the Result component
     const [input,setInput] = useState([
-        0])
+        null])
    const withOutCero=input[0]==='0'?input.slice(1,100):input
     console.log('el input del componente result es '+withOutCero+ ' y el tipo de dato es '+ typeof Number(input) )
     console.log('el resultado total es '+Number(input+numberToAdd))
